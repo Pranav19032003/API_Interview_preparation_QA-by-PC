@@ -71,6 +71,8 @@ So overall, when too many people call an API, these mechanisms ensure the system
 ---
 
 5. What is the difference between REST and SOAP APIs?
+
+
 REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two different architectural styles for building APIs. REST is more lightweight and uses HTTP methods, while SOAP is a protocol that uses XML.
 
 REST:
