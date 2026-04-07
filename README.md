@@ -1,11 +1,6 @@
 # API_Interview_preparation_QA-by-PC
 Interview Question-Answers  
 
-
-
-
-# API - Interview Questions & Answers
-
 ## 1. What is an API?
 A - Application
 P - Programming
