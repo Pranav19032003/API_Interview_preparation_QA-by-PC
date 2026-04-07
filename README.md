@@ -6,7 +6,7 @@ Interview Question-Answers
 
 # API - Interview Questions & Answers
 
-1. What is an API?
+## 1. What is an API?
 A - Application
 P - Programming
 I - Interface
@@ -21,7 +21,7 @@ From a development perspective, APIs are important because they enable modular d
 
 ---
 
-2. What does an API look like?
+## 2. What does an API look like?
 
 APIs don't have a visual interface like a frontend application; instead, they are accessed through code and defined by endpoints and data formats. Typically, an API consists of three main parts:
 
@@ -40,7 +40,7 @@ In summary, an API looks like a set of URLs (endpoints) that accept requests and
 
 ---
 
-3. How does the server know what I am allowed to do?
+## 3. How does the server know what I am allowed to do?
 
 The server knows what you are allowed to do through a combination of authentication and authorization.
 
@@ -57,7 +57,7 @@ In short, authentication tells the server who you are, and authorization tells i
 
 ---
 
-4. What if too many people start calling my API?
+##4. What if too many people start calling my API?
 
 If too many people call an API at the same time, it can lead to performance issues or even server overload. To handle this, systems use several techniques:
 
@@ -73,7 +73,7 @@ So overall, when too many people call an API, these mechanisms ensure the system
 
 ---
 
-5. What is the difference between REST and SOAP APIs?
+## 5. What is the difference between REST and SOAP APIs?
 
 REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two different architectural styles for building APIs. REST is more lightweight and uses HTTP methods, while SOAP is a protocol that uses XML.
 
@@ -93,7 +93,7 @@ REST is generally preferred for modern web APIs due to its simplicity and flexib
 
 ---
 
-6. How do you secure an API to prevent unauthorized access and data breaches?
+## 6. How do you secure an API to prevent unauthorized access and data breaches?
 
 API security involves techniques like Authentication (OAuth, API keys), Authorization, Rate limiting, and Encryption (HTTPS) to ensure that only authorized users can access the API and protect data in transit.
 
@@ -118,7 +118,7 @@ PATCH: Partially update an existing resource
 
 ---
 
-8. What is an API endpoint, and how is it defined in RESTful APIs?
+## 8. What is an API endpoint, and how is it defined in RESTful APIs?
 
 An API endpoint is a specific URL or URI that represents a resource. In RESTful APIs, endpoints are used to define the location of resources and the actions that can be performed on them.
 
@@ -131,7 +131,7 @@ Endpoints define the location of a resource and the actions (via HTTP methods) t
 
 ---
 
-9. How do you handle errors and status codes in API responses?
+## 9. How do you handle errors and status codes in API responses?
 
 API responses include status codes like 200 (OK), 400 (Bad Request), and 500 (Internal Server Error). Errors are handled by providing informative error messages and the appropriate status code.
 
@@ -149,7 +149,7 @@ Best Practice: Always return the appropriate status code and a descriptive error
 
 ---
 
-10. What is the purpose of API documentation, and how do you create effective API documentation?
+## 10. What is the purpose of API documentation, and how do you create effective API documentation?
 
 API documentation helps developers understand how to use an API. Effective documentation includes clear explanations of endpoints, request parameters, response formats, and usage examples.
 
@@ -165,7 +165,7 @@ Popular Tools: Swagger/OpenAPI, Postman, Redoc
 
 ---
 
-11. Can you explain API versioning and why it's necessary?
+## 11. Can you explain API versioning and why it's necessary?
 
 API versioning allows you to make changes to an API without breaking existing clients. It's necessary to ensure that clients using older versions of the API can still function as expected.
 
@@ -181,7 +181,7 @@ Common Versioning Approaches:
 
 ---
 
-12. How do you design APIs that are scalable and can handle increased traffic?
+## 12. How do you design APIs that are scalable and can handle increased traffic?
 
 Scalable APIs are designed with performance in mind. Techniques include caching, load balancing, and horizontal scaling to distribute traffic across multiple servers.
 
@@ -194,7 +194,7 @@ Key Techniques:
 
 ---
 
-13. Can you explain the concept of rate limiting in API development and its importance?
+## 13. Can you explain the concept of rate limiting in API development and its importance?
 
 Rate limiting restricts the number of API requests a user or application can make in a given time period. It's important to prevent abuse, ensure fair usage, and protect server resources.
 
@@ -209,7 +209,7 @@ Retry-After: 60
 
 ---
 
-14. How do you optimize API performance, and what tools or techniques do you use?
+## 14. How do you optimize API performance, and what tools or techniques do you use?
 
 API performance optimization includes reducing response times, minimizing unnecessary data transfer, and using tools like profiling and load testing to identify bottlenecks.
 
@@ -224,7 +224,7 @@ Optimization Techniques:
 
 ---
 
-15. Can you discuss the concept of RESTful API pagination and why it's used?
+## 15. Can you discuss the concept of RESTful API pagination and why it's used?
 
 RESTful API pagination divides large sets of data into smaller, manageable chunks (pages). It's used to improve response times, reduce data transfer, and enhance user experience.
 
@@ -239,7 +239,7 @@ Common Pagination Strategies:
 
 ---
 
-16. How do you handle API version deprecation and the transition to newer versions?
+## 16. How do you handle API version deprecation and the transition to newer versions?
 
 Deprecating an API version involves notifying users in advance and providing migration guides to transition to the newer version. It's essential to maintain backward compatibility during the transition.
 
@@ -251,7 +251,7 @@ Steps:
 
 ---
 
-17. Can you explain the benefits of using API gateways and when they are useful?
+## 17. Can you explain the benefits of using API gateways and when they are useful?
 
 API gateways serve as intermediaries between clients and multiple microservices. They provide benefits like load balancing, security, and request routing. They are useful in microservices architectures.
 
@@ -265,7 +265,7 @@ Key Benefits:
 
 ---
 
-18. What is the role of webhooks in APIs, and how can they be implemented?
+## 18. What is the role of webhooks in APIs, and how can they be implemented?
 
 Webhooks are used to notify clients of events or changes. They can be implemented by allowing clients to register callback URLs, and when an event occurs, the webhook sends a POST request to the registered URL.
 
@@ -278,7 +278,7 @@ Example Use Cases: Payment confirmation notifications, GitHub push event trigger
 
 ---
 
-19. How do you handle authentication in API development, and what authentication methods are commonly used?
+## 19. How do you handle authentication in API development, and what authentication methods are commonly used?
 
 Authentication methods include API keys, OAuth, and JWT (JSON Web Tokens). They are used to verify the identity of clients and ensure secure access to the API.
 
@@ -290,7 +290,7 @@ Common Methods:
 
 ---
 
-20. Can you discuss API versioning best practices and their impact on client applications?
+## 20. Can you discuss API versioning best practices and their impact on client applications?
 
 Best practices include using semantic versioning, maintaining backward compatibility, and clearly documenting changes. They help ensure that client applications continue to function after API updates.
 
@@ -303,7 +303,7 @@ Best Practices:
 
 ---
 
-21. What is RESTful hypermedia, and how does it enhance API discoverability?
+## 21. What is RESTful hypermedia, and how does it enhance API discoverability?
 
 RESTful hypermedia includes links and metadata in API responses to help clients discover and navigate available resources. It enhances the discoverability and flexibility of APIs.
 
@@ -325,7 +325,7 @@ Benefits:
 
 ---
 
-22. Can you describe a complex API integration project you worked on and the challenges you faced?
+## 22. Can you describe a complex API integration project you worked on and the challenges you faced?
 
 I worked on integrating a third-party payment gateway into an e-commerce platform. Challenges included handling different response formats and error codes, as well as ensuring secure transactions.
 
@@ -338,7 +338,7 @@ Challenges Faced:
 
 ---
 
-23. How do you monitor and troubleshoot API performance and errors in a production environment?
+## 23. How do you monitor and troubleshoot API performance and errors in a production environment?
 
 Monitoring involves using tools like logs, performance metrics, and error tracking. Troubleshooting includes identifying issues, diagnosing errors, and implementing fixes with minimal downtime.
 
@@ -358,7 +358,7 @@ Troubleshooting Steps:
 
 ---
 
-24. How do you handle versioning of APIs, and what are the advantages of versioning?
+## 24. How do you handle versioning of APIs, and what are the advantages of versioning?
 
 API versioning allows for changes to an API while maintaining backward compatibility. I prefer using URL versioning (e.g., "/v1/resource") to clearly indicate the version in the endpoint. Versioning ensures that existing clients can continue using the API without disruption while new features or changes are introduced.
 
@@ -371,7 +371,7 @@ Advantages:
 
 ---
 
-25. What are RESTful constraints, and how do they influence API design?
+## 25. What are RESTful constraints, and how do they influence API design?
 
 RESTful constraints, such as statelessness, client-server architecture, and the use of standard HTTP methods, guide API design for scalability and simplicity. I adhere to these constraints to ensure that the API is easy to understand, use, and maintain.
 
@@ -385,7 +385,7 @@ Key Constraints:
 
 ---
 
-26. Can you explain the concept of request and response headers in API development, and provide examples of when they are used?
+## 26. Can you explain the concept of request and response headers in API development, and provide examples of when they are used?
 
 Request and response headers carry additional information about the API request or response. For instance, "Content-Type" specifies the format of the request or response body, and "Authorization" contains authentication data. Properly using headers ensures smooth communication between clients and the API.
 
@@ -403,7 +403,7 @@ Common Response Headers:
 
 ---
 
-27. How do you approach handling errors in API responses, and what HTTP status codes do you commonly use for different types of errors?
+## 27. How do you approach handling errors in API responses, and what HTTP status codes do you commonly use for different types of errors?
 
 I use appropriate HTTP status codes like 400 for client errors (e.g., Bad Request) and 500 for server errors (e.g., Internal Server Error) to indicate the nature of the error. Additionally, I include detailed error messages in the response body to help clients diagnose and resolve issues efficiently.
 
